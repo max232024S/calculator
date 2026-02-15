@@ -22,7 +22,7 @@ def calculator(content):
     print(response.json()["choices"][0]["message"]["content"])
 
 while True:
-    message = input("Enter your next message.")
+    message = input("Enter your next calculation!")
     if message == "exit":
         break
     calculator(message)
